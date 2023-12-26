@@ -4,9 +4,9 @@ English | [中文](README_cn.md) | [Italiano](README_it.md)
 
 Minimal web UI for Gemini Pro Chat.
 
-Live demo: [Gemini Pro Chat](https://www.geminiprochat.com)
+Live demo: [Gemini Chatbase](https://www.geminichatbase.com)
 
-[![image](https://github.com/babaohuang/GeminiProChat/assets/559171/d02fd440-401a-410d-a112-4b10935624c6)](https://www.geminiprochat.com)
+[![image](https://github.com/babaohuang/GeminiProChat/assets/559171/d02fd440-401a-410d-a112-4b10935624c6)](https://www.geminichatbase.com)
 
 ## Deploy
 
@@ -44,7 +44,7 @@ Just click the button above and follow the instructions to deploy on Zeabur.
 To deploy with Docker, you can use the following command:
 
 ```bash
-docker run --name geminiprochat \
+docker run --name geminichatbase \
 --restart always \
 -p 3000:3000 \
 -itd \
@@ -53,7 +53,7 @@ babaohuang/geminiprochat:latest
 ```
 Please make sure to replace `your_api_key_here` with your own GEMINI API key.
 
-This will start the **geminiprochat** service, accessible at `http://localhost:3000`. 
+This will start the **geminichatbase** service, accessible at `http://localhost:3000`. 
 
 ## Environment Variables
 
@@ -62,7 +62,7 @@ You can control the website through environment variables.
 | Name | Description | Required |
 | --- | --- | --- |
 | `GEMINI_API_KEY` | Your API Key for GEMINI. You can get it from [here](https://makersuite.google.com/app/apikey).| **✔** |
-| `API_BASE_URL` | Custom base url for GEMINI API. Click [here](https://github.com/babaohuang/GeminiProChat?tab=readme-ov-file#solution-for-user-location-is-not-supported-for-the-api-use) to see when to use this. | ❌ |
+| `API_BASE_URL` | Custom base url for GEMINI API. Click [here](https://github.com/rudy2steiner/GeminiChatbase?tab=readme-ov-file#solution-for-user-location-is-not-supported-for-the-api-use) to see when to use this. | ❌ |
 | `HEAD_SCRIPTS` | Inject analytics or other scripts before `</head>` of the page | ❌ |
 | `PUBLIC_SECRET_KEY` | Secret string for the project. Use for generating signatures for API calls | ❌ |
 | `SITE_PASSWORD` | Set password for site, support multiple password separated by comma. If not set, site will be public | ❌ |
@@ -109,13 +109,5 @@ You can control the website through environment variables.
 This project is inspired by and based on the following open-source project:
 
 - [ChatGPT-Demo](https://github.com/anse-app/chatgpt-demo) - For the foundational codebase and features.
+- [Gemini Pro Chat](https://github.com/babaohuang/GeminiProChat) - For the foundational codebase and features.
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=babaohuang/geminiprochat&type=Timeline)](https://star-history.com/#babaohuang/geminiprochat&Timeline)
-
-## Buy me a coffee
-
-If this repo is helpful to you, buy me a coffee,thank you very much!😄
-
-<a href="https://www.buymeacoffee.com/babaohuang" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
