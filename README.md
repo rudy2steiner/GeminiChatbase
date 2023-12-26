@@ -6,7 +6,7 @@ Minimal web UI for Gemini Pro Chat.
 
 Live demo: [Gemini Chatbase](https://www.geminichatbase.com)
 
-[![image](https://github.com/rudy2steiner/GeminiChatbase/assets/11767784/339a94e8-bbdb-46a6-a3ef-a754b245d61b)](https://www.geminichatbase.com)
+[![image](https://github.com/rudy2steiner/GeminiChatbase/assets/11767784/c8192069-85ae-4749-ae63-b5b89366d560)](https://www.geminichatbase.com)
 
 ## Deploy
 
