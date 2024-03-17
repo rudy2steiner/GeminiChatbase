@@ -25,9 +25,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'inline',
       manifest: {
-        name: 'Gemini Pro Chat',
-        short_name: 'Gemini Pro',
-        description: 'Minimal web UI for Gemini Pro.',
+        name: 'Gemini Chat',
+        short_name: 'Gemini Chat',
+        description: 'Gemini is the pinnacle of AI-powered work assistance, designed to empower you with unprecedented efficiency - Gemini Chat.',
         theme_color: '#212129',
         background_color: '#ffffff',
         icons: [
